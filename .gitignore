@@ -1,0 +1,8 @@
+.vscode/
+bin/
+obj/
+temp/
+*.json
+*.png
+!example.json
+!example/*.png
