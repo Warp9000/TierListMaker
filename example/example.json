@@ -3,14 +3,14 @@
         "color": "#FF0000",
         "items": [
             "https://cdn.discordapp.com/avatars/408615875252322305/949efb755ae7bc3cb7b4755204279455.png?size=4096",
-            "./example/astolfo.png"
+            "./astolfo.png"
         ]
     },
     "A": {
         "color": "#FFA500",
         "items": [
-            "./example/ak47.png",
-            "./example/sky.jpg"
+            "./ak47.png",
+            "./sky.jpg"
         ]
     }
 }
