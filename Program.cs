@@ -21,14 +21,14 @@ namespace TierListMaker
             {
                 list.list = JsonConvert.DeserializeObject<Dictionary<string, TierList.Row>>(File.ReadAllText(args[0]))!;
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                Console.WriteLine("Invalid JSON file.");
+                Console.WriteLine("Invalid JSON file. " + e.Message);
                 return;
             }
             if (list.list == null || list.list.Count == 0)
             {
-                Console.WriteLine("Invalid JSON file.");
+                Console.WriteLine("Invalid JSON file. (null or empty)");
                 return;
             }
 
